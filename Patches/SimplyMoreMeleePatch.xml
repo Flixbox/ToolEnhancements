@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Simply More Melee (Continued)</li>
+        </mods>
+        <match Class="PatchOperationAdd">
+            <xpath>/Defs/ThingDef[defName="SMM_Mallet"]/equippedStatOffsets</xpath>
+            <value>
+                <ConstructionSpeed>0.2</ConstructionSpeed>
+                <SculptingSpeed>0.3</SculptingSpeed>
+                <StonecuttingSpeed>0.3</StonecuttingSpeed>
+            </value>
+        </match>
+    </Operation>
+</Patch>

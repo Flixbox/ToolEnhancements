@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>Tool Enhancements</name>
+	<author>Flixbox</author>
+	<url>https://github.com/Flixbox/ToolEnhancements</url>
+	<supportedVersions>
+		<li>1.3</li>
+	</supportedVersions>
+	<packageId>Flixbox.ToolEnhancements</packageId>
+	<description>Patches tools from various mods, adding stat boosts when held.</description>
+	<modDependencies>
+		<li>
+			<packageId>scherub.skilledstonecutting</packageId>
+			<displayName>Skilled Stonecutting [1.3]</displayName>
+			<steamWorkshopUrl>steam://url/CommunityFilePage/2553698129</steamWorkshopUrl>
+			<downloadUrl>https://steamcommunity.com/workshop/filedetails/?id=2553698129</downloadUrl>
+		</li>
+		<li>
+			<packageId>treechoppingspeed.velcroboy333</packageId>
+			<displayName>Tree Chopping Speed Stat</displayName>
+			<steamWorkshopUrl>steam://url/CommunityFilePage/2566231583</steamWorkshopUrl>
+			<downloadUrl>https://steamcommunity.com/workshop/filedetails/?id=2566231583</downloadUrl>
+		</li>
+		<li>
+			<packageId>primitivetools.velcroboy333</packageId>
+			<displayName>Primitive Tools</displayName>
+			<steamWorkshopUrl>steam://url/CommunityFilePage/2352893469</steamWorkshopUrl>
+			<downloadUrl>https://steamcommunity.com/workshop/filedetails/?id=2352893469</downloadUrl>
+		</li>
+	</modDependencies>
+	<loadAfter>
+		<li>scherub.skilledstonecutting</li>
+		<li>treechoppingspeed.velcroboy333</li>
+		<li>primitivetools.velcroboy333</li>
+	</loadAfter>
+</ModMetaData>
