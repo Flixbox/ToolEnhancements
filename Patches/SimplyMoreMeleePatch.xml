@@ -5,11 +5,9 @@
             <li>Simply More Melee (Continued)</li>
         </mods>
 
-        <li Class="PatchOperationSequence">
+        <match Class="PatchOperationSequence">
             <operations>
-
                 <li Class="PatchOperationAdd">
-
                     <xpath>/Defs/ThingDef[defName="SMM_Mallet"]/equippedStatOffsets</xpath>
                     <value>
                         <ConstructionSpeed>0.2</ConstructionSpeed>
@@ -24,6 +22,6 @@
                     </value>
                 </li>
             </operations>
-        </li>
+        </match>
     </Operation>
 </Patch>
