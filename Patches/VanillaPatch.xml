@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Patch>
     <Operation Class="PatchOperationAdd">
-        <xpath>/Defs/ThingDef[defName="MeleeWeapon_Knife"]/</xpath>
+        <xpath>/Defs/ThingDef[defName="MeleeWeapon_Knife"]</xpath>
         <value>
             <equippedStatOffsets>
                 <ButcheryFleshEfficiency>0.2</ButcheryFleshEfficiency>
