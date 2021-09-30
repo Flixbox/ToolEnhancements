@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+    <Operation Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[defName="MeleeWeapon_Knife"]/</xpath>
+        <value>
+            <equippedStatOffsets>
+                <ButcheryFleshEfficiency>0.2</ButcheryFleshEfficiency>
+                <ButcheryFleshSpeed>0.10</ButcheryFleshSpeed>
+                <CookSpeed>0.2</CookSpeed>
+                <FoodPoisonChance>-0.10</FoodPoisonChance>
+            </equippedStatOffsets>
+        </value>
+    </Operation>
+</Patch>
