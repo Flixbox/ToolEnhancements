@@ -12,5 +12,11 @@
                 <StonecuttingSpeed>0.3</StonecuttingSpeed>
             </value>
         </match>
+        <match Class="PatchOperationReplace">
+            <xpath>/Defs/ThingDef[defName="SMM_Mallet"]/description</xpath>
+            <value>
+                <description>A small hammer with a large blunt head. Ineffective as a weapon, but great for shaping various objects.</description>
+            </value>
+        </match>
     </Operation>
 </Patch>
