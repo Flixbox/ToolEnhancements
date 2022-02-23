@@ -1,3 +1,10 @@
-# Any hair, beard and tattoo for Cactaceae
+# Tool Enhancements
 
-Patches the Cactaceae mod to allow any hard, beard and tattoo. Make sure to enable them in your ideology. Use development mode if necessary.
+Provides various tool stats like enhanced tree chopping speed, butcher speed and construction speed to several tools.
+
+Examples include:
+
+- Vanilla RimWorld
+- Medieval Overhaul
+- Simply More Melee (Continued)
+- Rimmu-Nation 2
