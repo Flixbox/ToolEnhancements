@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Medieval Overhaul</li>
+        </mods>
+
+        <match Class="PatchOperationSequence">
+            <operations>
+                <li Class="PatchOperationAdd">
+                    <xpath>/Defs/ThingDef[defName="DankPyon_MeleeWeapon_Pickaxe" or defName="DankPyon_MeleeWeapon_MilitaryPick"]/equippedStatOffsets</xpath>
+                    <value>
+                        <MiningSpeed>0.1</MiningSpeed>
+                        <MiningYield>0.1</MiningYield>
+                    </value>
+                </li>
+                <li Class="PatchOperationAdd">
+                    <xpath>/Defs/ThingDef[defName="DankPyon_MeleeWeapon_Warhammer" or defName="DankPyon_MeleeWeapon_TwoHandedMallet" or defName="DankPyon_MeleeWeapon_TwoHandedHammer"]/equippedStatOffsets</xpath>
+                    <value>
+                        <ConstructionSpeed>0.1</ConstructionSpeed>
+                        <ConstructSuccessChance>0.05</ConstructSuccessChance>
+                        <SculptingSpeed>0.3</SculptingSpeed>
+                        <StonecuttingSpeed>0.3</StonecuttingSpeed>
+                    </value>
+                </li>
+
+                <li Class="PatchOperationAdd">
+                    <xpath>/Defs/ThingDef[defName="DankPyon_MeleeWeapon_Hatchet" or defName="DankPyon_MeleeWeapon_Handaxe" or defName="DankPyon_MeleeWeapon_FightingAxe" or defName="DankPyon_MeleeWeapon_WoodcuttersAxe"  or defName="DankPyon_MeleeWeapon_Greataxe" or defName="DankPyon_MeleeWeapon_Longaxe"]/equippedStatOffsets</xpath>
+                    <value>
+                        <PlantWorkSpeed>0.3</PlantWorkSpeed>
+                        <VBY_TreeChopWorkSpeed>0.25</VBY_TreeChopWorkSpeed>
+                    </value>
+                </li>
+            </operations>
+        </match>
+    </Operation>
+</Patch>
