@@ -10,9 +10,11 @@
                 <li Class="PatchOperationAdd">
                     <xpath>/Defs/ThingDef[defName="SMM_Mallet"]/equippedStatOffsets</xpath>
                     <value>
-                        <ConstructionSpeed>0.2</ConstructionSpeed>
-                        <SculptingSpeed>0.3</SculptingSpeed>
-                        <StonecuttingSpeed>0.3</StonecuttingSpeed>
+                        <equippedStatOffsets>
+                            <ConstructionSpeed>0.2</ConstructionSpeed>
+                            <SculptingSpeed>0.3</SculptingSpeed>
+                            <StonecuttingSpeed>0.3</StonecuttingSpeed>
+                        </equippedStatOffsets>
                     </value>
                 </li>
                 <li Class="PatchOperationReplace">

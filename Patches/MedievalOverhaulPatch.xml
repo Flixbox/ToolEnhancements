@@ -10,25 +10,31 @@
                 <li Class="PatchOperationAdd">
                     <xpath>/Defs/ThingDef[defName="DankPyon_MeleeWeapon_Pickaxe" or defName="DankPyon_MeleeWeapon_MilitaryPick"]/equippedStatOffsets</xpath>
                     <value>
-                        <MiningSpeed>0.1</MiningSpeed>
-                        <MiningYield>0.1</MiningYield>
+                        <equippedStatOffsets>
+                            <MiningSpeed>0.1</MiningSpeed>
+                            <MiningYield>0.1</MiningYield>
+                        </equippedStatOffsets>
                     </value>
                 </li>
                 <li Class="PatchOperationAdd">
                     <xpath>/Defs/ThingDef[defName="DankPyon_MeleeWeapon_Warhammer" or defName="DankPyon_MeleeWeapon_TwoHandedMallet" or defName="DankPyon_MeleeWeapon_TwoHandedHammer"]/equippedStatOffsets</xpath>
                     <value>
-                        <ConstructionSpeed>0.1</ConstructionSpeed>
-                        <ConstructSuccessChance>0.05</ConstructSuccessChance>
-                        <SculptingSpeed>0.3</SculptingSpeed>
-                        <StonecuttingSpeed>0.3</StonecuttingSpeed>
+                        <equippedStatOffsets>
+                            <ConstructionSpeed>0.1</ConstructionSpeed>
+                            <ConstructSuccessChance>0.05</ConstructSuccessChance>
+                            <SculptingSpeed>0.3</SculptingSpeed>
+                            <StonecuttingSpeed>0.3</StonecuttingSpeed>
+                        </equippedStatOffsets>
                     </value>
                 </li>
 
                 <li Class="PatchOperationAdd">
                     <xpath>/Defs/ThingDef[defName="DankPyon_MeleeWeapon_Hatchet" or defName="DankPyon_MeleeWeapon_Handaxe" or defName="DankPyon_MeleeWeapon_FightingAxe" or defName="DankPyon_MeleeWeapon_WoodcuttersAxe"  or defName="DankPyon_MeleeWeapon_Greataxe" or defName="DankPyon_MeleeWeapon_Longaxe"]/equippedStatOffsets</xpath>
                     <value>
-                        <PlantWorkSpeed>0.3</PlantWorkSpeed>
-                        <VBY_TreeChopWorkSpeed>0.25</VBY_TreeChopWorkSpeed>
+                        <equippedStatOffsets>
+                            <PlantWorkSpeed>0.3</PlantWorkSpeed>
+                            <VBY_TreeChopWorkSpeed>0.25</VBY_TreeChopWorkSpeed>
+                        </equippedStatOffsets>
                     </value>
                 </li>
             </operations>
